@@ -10,7 +10,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from Half_Unet import half_model
 
-# Define mish activation function
+
 def mish(x):
     return x * tf.math.tanh(tf.math.softplus(x))
 
