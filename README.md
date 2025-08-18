@@ -35,7 +35,7 @@ These were tested across different architectures for performance comparison.
   - Second derivative (acceleration)  
 - **Windowing:**  
   - Signal divided into **512-point windows** (to fit U-Net max pooling stages).  
-  - **50% overlap** between consecutive windows to ensure continuity.  
+  - **50 data point overlap** between consecutive windows to ensure continuity.  
 
 ---
 
