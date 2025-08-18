@@ -3,12 +3,12 @@
 This repository contains deep learning models developed for predicting **Systolic Blood Pressure (SBP)** and **Diastolic Blood Pressure (DBP)** from **Photoplethysmogram (PPG) signals**.  
 The work explores multiple **U-Net variants** with different activation functions to optimize prediction performance.  
 
-## 🎯 Objective  
+## Objective  
 The goal is to build robust deep learning models that can accurately **predict SBP and DBP values** from preprocessed PPG signals and their derivatives.  
 
 ---
 
-## 📌 Models Implemented  
+## Models Implemented  
 - **U-Net** – Standard U-Net model (largest parameter size).  
 - **Squeeze U-Net** – Lightweight version using squeeze-and-expand layers.  
 - **Mobile U-Net** – Efficient architecture inspired by MobileNet blocks.  
@@ -16,7 +16,7 @@ The goal is to build robust deep learning models that can accurately **predict S
 
 ---
 
-## ⚡ Activation Functions Explored  
+## Activation Functions Explored  
 - **ReLU**  
 - **Swish**  
 - **Mish**  
